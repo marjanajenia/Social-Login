@@ -46,6 +46,7 @@
                 @endif
             </div>
             <div class="mg-t-10">Not yet a member? <a href="{{ route('register') }}" class="tx-info">Sign Up</a></div>
+            <a class="btn btn-info m-1 btn-sm" href=""><i class="fab fa-google"></i> Login with Google</a>
         </form>
       </div><!-- login-wrapper -->
     </div><!-- overlay-body -->
