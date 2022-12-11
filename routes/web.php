@@ -16,6 +16,7 @@ use App\Http\Controllers\SocialmediaLogin;
 */
 
 Route::get('/togoogle', [SocialmediaLogin::class,'togoogle'])->name('togoogle');
+Route::get('/google/login',[SocialmediaLogin::class, 'googleInfoStore']);
 
 
 Route::get('/', function () {
