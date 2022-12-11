@@ -15,7 +15,8 @@ use App\Http\Controllers\SocialmediaLogin;
 |
 */
 
-//Route::get([SocialmediaLogin::class, 'togoogle'])->name('togoogle');
+Route::get('/togoogle', [SocialmediaLogin::class,'togoogle'])->name('togoogle');
+
 
 Route::get('/', function () {
     return view('welcome');
